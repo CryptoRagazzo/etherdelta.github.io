@@ -4,36 +4,49 @@ module.exports = {
     cn: 'English',
     fr: 'English',
     es: 'English',
+    it: 'English',
   },
   cn: {
     en: '中文',
     cn: '中文',
     fr: '中文',
     es: '中文',
+    it: '中文',
   },
   fr: {
     en: 'Français',
     cn: 'Français',
     fr: 'Français',
     es: 'Français',
+    it: 'Français',
   },
   es: {
     en: 'Español',
     cn: 'Español',
     fr: 'Español',
     es: 'Español',
+    it: 'Español',
+  },
+  it: {
+    en: 'Italiano',
+    cn: 'Italiano',
+    fr: 'Italiano',
+    es: 'Italiano',
+    it: 'Italiano',
   },
   title: {
     en: 'EtherDelta',
     cn: 'EtherDelta',
     fr: 'EtherDelta',
     es: 'EtherDelta',
+    it: 'EtherDelta',
   },
   description: {
     en: 'EtherDelta is a decentralized exchange for Ethereum tokens.',
     cn: 'EtherDelta是去中心化的以太坊交易平台。',
     fr: "EtherDelta est une bourse d'échange de jetons ethereum décentralisé.",
     es: 'EtherDelta se ha posicionado como la primera bolsa de cambio de cryptomonedas y symbolicos de la blockchain Ethereum.',
+    it: 'EtherDelta è una Exchange decentralizzata per token Ethereum.',
     // cn:'EtherDelta是无中心的以太坊交易平台。'
   },
   Smart_Contract: {
@@ -41,90 +54,105 @@ module.exports = {
     cn: '智能合约',
     fr: 'Contrat intelligent',
     es: 'Contrato inteligente',
+    it: 'Smart Contract',
   },
   smart_contract_overview: {
     en: 'Smart contract overview',
     cn: '智能合约概貌',
     fr: "Apercu d'ensemble du contrat dit smart",
     es: 'Estudio del contrato inteligente',
+    it: 'Panoramica del Smart contract,
   },
   select_account: {
     en: 'Select account',
     cn: '选择账号',
     fr: 'Selection du compte',
     es: 'Selección de la cuenta',
+    it: 'Scegli Account',
   },
   please_select_account: {
     en: 'Please select an account using the account dropdown in the upper right.',
     cn: '请使用右上角的帐户下拉菜单选择一个帐户。',
     fr: "S'il vous plaît sélectionner un compte en utilisant le menu déroulant de compte dans le coin supérieur droit.",
     es: 'Por favor, seleccione una cuenta usando el desplegable de la cuenta en la parte superior derecha.',
+    it: 'Cortesemente scegli un account utilizzando il menu nell\'angolo superiore destro.',
   },
   howto_videos: {
     en: 'How-to videos',
     cn: '说明视频',
     fr: 'How-to videos',
     es: 'A ver las videos',
+    it: 'Video esplicativi',
   },
   expires_explanation: {
     en: 'The number of Ethereum blocks until the order automatically expires. (14 seconds per block.)',
     cn: '直到订单自动过期的Etherem块的数量。 (每个块都是14秒。)',
     fr: 'Le nombre de blocs Ethereum jusqu\'à ce que l\'ordre expire automatiquement. (Chaque bloc est de 14 secondes.)',
     es: 'El número de bloques Ethereum hasta que el pedido expire automáticamente. (Cada bloque es de 14 segundos.)',
+    it: 'Numero di Blocchi Ethereum prima che l\'ordine decada automaticamente. (14 secondi per blocco.)',
   },
   gas_price: {
     en: 'Gas price',
     cn: '气体价格',
     fr: 'Prix de l\'essence',
     es: 'Precio del gas',
+    it: 'Prezzo del Gas',
   },
   gas_price_gwei: {
     en: 'Gas price (gwei)',
     cn: '气体价格 (gwei)',
     fr: 'Prix de l\'essence (gwei)',
     es: 'Precio del gas (gwei)',
+    it: 'Prezzo del gas (gwei)',
   },
   set_gas_price: {
     en: 'Set gas price',
     cn: '气体价格',
     fr: 'Prix de l\'essence',
     es: 'Precio del gas',
+    it: 'Stabilisci prezzo del gas',
   },
   FAQ: {
     en: 'FAQ',
     cn: 'FAQ',
     fr: 'FAQ',
     es: 'FAQ',
+    it: 'FAQ',
   },
   Screencast: {
     en: 'Screencast',
     cn: '截屏',
     fr: 'Screencast',
     es: 'Screencast',
+    it: 'Screencast',
   },
   cost: {
     en: 'Cost',
     cn: '成本',
     fr: 'Coût',
     es: 'Costo',
+    it: 'Costo',
   },
   Notes: {
     en: 'Notes',
     cn: '笔记',
     fr: 'Notes',
     es: 'Notas',
+    it: 'Note',
   },
   depth: {
     en: 'Depth',
     cn: '深度',
     fr: 'Profondeur',
     es: 'Profundidad',
+    it: 'Profondità',
   },
   only_7_days: {
     en: 'Note: EtherDelta will only show recent transactions.',
     cn: '注意：EtherDelta只会显示最近的交易。',
     fr: 'Remarque: EtherDelta affichera uniquement les transactions récentes.',
     es: 'Nota: EtherDelta sólo mostrará transacciones recientes.',
+    it: 'Nota: EtherDelta mostra solamente le transazioni recenti.',
   },
 
   announcements: {
@@ -132,12 +160,14 @@ module.exports = {
     cn: '公告',
     fr: 'Annonces',
     es: 'Anuncios',
+    it: 'Annunci',
   },
   order_book: {
     en: 'Order book',
     cn: '订单簿',
     fr: "Carnet d'ordres",
     es: 'Cartera de órdenes',
+    it: 'Order book',
   },
   orders: {
     en: 'Orders',
@@ -145,6 +175,7 @@ module.exports = {
     // cn:'订单簿'
     fr: 'Ordres',
     es: 'Pedidas',
+    it: 'Ordini',
   },
   follow_twitter: {
     en: 'Follow us on Twitter',
@@ -152,6 +183,7 @@ module.exports = {
     // cn:'跟Twitter'
     fr: 'Suivez nous sur Twitter',
     es: 'Siguenos en Twitter',
+    it: 'Seguici su Twitter',
   },
   chat: {
     en: 'Chat',
@@ -159,12 +191,14 @@ module.exports = {
     // cn:'聊'
     fr: 'Causerie',
     es: 'Hogar del chat',
+    it: 'Chat',
   },
   send: {
     en: 'Send',
     cn: '发送',
     fr: 'Envoyer',
     es: 'Enviar',
+    it: 'Inviare',
   },
   volume: {
     en: 'Volume',
@@ -172,6 +206,7 @@ module.exports = {
     // cn:'量'
     fr: 'Volume',
     es: 'Volumen',
+    it: 'Volume',
   },
   pair: {
     en: 'Pair',
