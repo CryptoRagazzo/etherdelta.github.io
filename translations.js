@@ -213,12 +213,14 @@ module.exports = {
     cn: '交易币种',
     fr: 'Paire',
     es: 'Paras',
+    it: 'Pair',
   },
   produced_etherboost: {
     en: 'Produced by Etherboost',
     cn: 'Etherboost制作',
     fr: 'Produit par Etherboost',
     es: 'Producido por Etherboost',
+    it: 'Prodotto da Etherboost'
   },
   etherdelta_desc: {
     en: 'EtherDelta &#8212; decentralized token exchange',
@@ -226,6 +228,7 @@ module.exports = {
     // cn:'EtherDelta &#8212; 无中心交易'
     fr: 'EtherDelta &#8212; échange de jetons décentralisé',
     es: 'EtherDelta &#8212; échange de jetons décentralisé',
+    it: 'EtherDelta &#8212; exchange di token decentralizzata',
   },
   etheropt_desc: {
     en: 'EtherOpt &#8212; decentralized options exchange',
@@ -233,6 +236,7 @@ module.exports = {
     // cn:'EtherOpt &#8212; 无中心期权交易'
     fr: "EtherOpt &#8212; marché de change d'options décentralisé",
     es: 'EtherOpt &#8212; mercado de cambio de opciones descentralisado',
+    it: 'EtherOpt &#8212; exchange decentralizzato di opzioni,
   },
   predictiontoken_desc: {
     en: 'PredictionToken &#8212; prediction market tokens',
@@ -240,18 +244,21 @@ module.exports = {
     // cn:'PredictionToken &#8212; 预测市场币'
     fr: 'PredictionToken &#8212; marché de prédiction de jetons',
     es: 'PredictionToken &#8212; mercado de prédiccion de simbolicos',
+    it: 'PredictionToken &#8212; prediction market tokens',
   },
   ethereumdollar_desc: {
     en: 'EthereumDollar &#8212; stable dollar token',
     cn: 'EthereumDollar &#8212; 稳定美元币',
     fr: 'EthereumDollar &#8212; jeton de dollar stable',
     es: 'EthereumDollar &#8212; simbolico de dollar estable',
+    it: 'EthereumDollar &#8212; token di dollari stabile ',
   },
   toggle_navigation: {
     en: 'Toggle navigation',
     cn: '切换导航',
     fr: 'Basculer navigation',
     es: 'Volcar menú',
+    it: 'Cambia la navigazione',
   },
   name: {
     en: 'Name',
@@ -259,48 +266,56 @@ module.exports = {
     // cn:'币名称'
     fr: 'Titre',
     es: 'Denominación',
+    it: 'Nome',
   },
   decimals: {
     en: 'Decimals',
     cn: '小数位数',
     fr: 'Décimales',
     es: 'Decimales',
+    it: 'Decimali',
   },
   go: {
     en: 'Go',
     cn: '提交',
     fr: 'Go',
     es: 'Go',
+    it: 'Go',
   },
   add_account: {
     en: 'Add account',
     cn: '添加账号',
     fr: 'Ajout de compte',
     es: 'Ajuntar cuenta',
+    it: 'Aggiungi Account',
   },
   address: {
     en: 'Address',
     cn: '地址',
     fr: 'Adresse',
     es: 'direccion',
+    it: 'Indirizzo',
   },
   private_key: {
     en: 'Private key',
     cn: '密钥',
     fr: 'clé privée',
     es: 'llave privada',
+    it: 'Chiave Privata',
   },
   buy: {
     en: 'Buy',
     cn: '买',
     fr: 'Achat',
     es: 'Compra',
+    it: 'Compra',
   },
   sell: {
     en: 'Sell',
     cn: '卖',
     fr: 'Vente',
     es: 'Venta',
+    it: 'Vendi',
   },
   amount_to_buy: {
     en: 'Amount to buy',
@@ -308,6 +323,7 @@ module.exports = {
     // cn:'买的量'
     fr: "Montant d'achat",
     es: 'Importe de compra',
+    it: 'Importo da acquistare',
   },
   amount_to_sell: {
     en: 'Amount to sell',
@@ -315,24 +331,28 @@ module.exports = {
     // cn:'卖的量'
     fr: 'Montant à vendre',
     es: 'Cantidad a la venta',
+    it: 'Importo da vendere',
   },
   price: {
     en: 'Price',
     cn: '价格',
     fr: 'Prix',
     es: 'Precio',
+    it: 'Prezzo',
   },
   total: {
     en: 'Total',
     cn: '总量',
     fr: 'Total',
     es: 'Total',
+    it: 'Totale',
   },
   order: {
     en: 'Order',
     cn: '下单',
     fr: 'Ordre',
     es: 'Orden',
+    it: 'Ordine',
   },
   etherscan_contract: {
     en: 'Etherscan contract',
@@ -340,6 +360,7 @@ module.exports = {
     // cn:'Etherscan contract'
     fr: 'Contrat Etherscan',
     es: 'Contrato Etherscan',
+    it: 'Contratto Etherscan',
   },
   etherscan_address: {
     en: 'Etherscan address',
@@ -347,24 +368,28 @@ module.exports = {
     // cn:'Etherscan address'
     fr: 'Adresse Etherscan',
     es: 'Direccion Etherscan',
+    it: 'Indirizzo Etherscan',
   },
   Guides: {
     en: 'Guides',
     cn: '指南',
     fr: 'Guides',
     es: 'Guias',
+    it: 'Guide',
   },
   help: {
     en: 'Help',
     cn: '援助',
     fr: 'Aide',
     es: 'Ayuda',
+    it; 'Aiuto',
   },
   videos: {
     en: 'Videos',
     cn: '视频',
     fr: 'Videos',
     es: 'Videos',
+    it: 'Video',
   },
   number_of_blocks: {
     en: 'Number of blocks',
@@ -372,6 +397,7 @@ module.exports = {
     // cn:'到期块数量'
     fr: 'Nombre de blocs',
     es: 'Número de bloques',
+    it: 'Numero di Blocchi',
   },
   expires: {
     en: 'Expires',
@@ -379,18 +405,21 @@ module.exports = {
     // cn:'到期块数量'
     fr: 'Expire',
     es: 'Expira',
+    it: 'Scadenza',
   },
   balances: {
     en: 'Balances',
     cn: '余额',
     fr: 'Soldes',
     es: 'Saldos',
+    it: 'Saldi',
   },
   balance: {
     en: 'Balance',
     cn: '余额',
     fr: 'Solde',
     es: 'Saldo',
+    it: 'Saldo',
   },
   token: {
     en: 'Token',
@@ -398,6 +427,7 @@ module.exports = {
     // cn:'币'
     fr: 'Jeton',
     es: 'Simbolico',
+    it: 'Token',
   },
   tokens: {
     en: 'Tokens',
@@ -405,12 +435,14 @@ module.exports = {
     // cn:'币'
     fr: 'Jetons',
     es: 'Simbolicso',
+    it: 'Tokens',
   },
   aug032016: {
     en: 'August 3, 2016',
     cn: '2016年8月3日',
     fr: '3 Aout, 2016',
     es: '3 Agosto, 2016',
+    it: '3 Agosto, 2016',
   },
   aug032016_announcement: {
     en: 'EtherDelta has moved to a new smart contract. Go to the bottom of the page and switch to the old one if you have a balance there you need to withdraw.',
